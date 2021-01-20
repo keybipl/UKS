@@ -8,7 +8,6 @@
 
 * {
     box-sizing: border-box;
-    /* font-size: 21px; */
 }
 
 header {
@@ -27,6 +26,10 @@ header {
     top: 85vh;
     left: 0;
     z-index: 1;
+}
+
+.navbar {
+    z-index: 1030;
 }
 
 .container .navbar-brand {
@@ -94,6 +97,7 @@ header {
     max-width: 100%;
     max-height: 100%;
     opacity: .9;
+    margin-top: 106px;
 }
 
 .slider .carousel-indicators li {
