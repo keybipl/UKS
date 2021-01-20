@@ -156,6 +156,26 @@ main .container .row ul li {
     letter-spacing: 2px;
 }
 
+
+.avatar {
+    opacity: .3;
+    transition: .3s;
+}
+
+
+
+.avatar:hover {
+    opacity: 1;
+}
+
+.scale {
+    transition: .5s;
+}
+
+.scale:hover {
+    transform: scale(1.25);
+}
+
 /* main .container {
     border: 10px solid red;
     margin-top: 50px;
