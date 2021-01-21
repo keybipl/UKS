@@ -73,22 +73,13 @@ header {
     margin-bottom: 40px;
 }
 
-.carousel-inner .carousel-item .carousel-caption a {
-    text-decoration: none;
+.carousel-inner .carousel-item .carousel-caption h1 {
+    letter-spacing: 5px;
+    font-weight: bold;
+    background-color: rgba(255, 0, 0, .5);
+    line-height: 200%;
 }
 
-.carousel-inner .carousel-item .carousel-caption a button {
-    display: block;
-    line-height: 250%;
-    font-size: 26px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    border-radius: 15px;
-    font-weight: bold;
-    width: 300px;
-    margin: 0 auto;
-    /* background-color: rgba(220, 53, 69, .7) */
-}
 
 .slider img {
     width: auto;
@@ -174,6 +165,16 @@ main .container .row ul li {
 
 .scale:hover {
     transform: scale(1.25);
+}
+
+.mail {
+    color: white;
+    text-decoration: none;
+    cursor: default;
+}
+
+.mail:hover {
+    color: white;
 }
 
 /* main .container {
