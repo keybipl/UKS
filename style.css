@@ -23,7 +23,7 @@ header {
 
 .facebook {
     position: fixed;
-    top: 85vh;
+    top: 80vh;
     left: 0;
     z-index: 1030;
 }
