@@ -45,8 +45,8 @@
                 <ul class="dropdown-menu" aria-labelledby="teams">
                   <li><a class="dropdown-item" href="2015.html">Rocznik 2015-2016</a></li>
                   <li><a class="dropdown-item" href="2014.html">Rocznik 2014</a></li>
-                  <li><a class="dropdown-item" href="2013.html">Rocznik 2013</a></li>
-                  <li><a class="dropdown-item" href="2010.html">Rocznik 2010-2012</a></li>
+                  <li><a class="dropdown-item" href="2013.html">Rocznik 2012-2013</a></li>
+                  <li><a class="dropdown-item" href="2010.html">Rocznik 2010-2011</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -58,6 +58,7 @@
                   <li><a class="dropdown-item" href="trenerzy.html">Sztab trenerski</a></li>
                   <li><a class="dropdown-item" href="zarzad.html">Zarząd</a></li>
                   <li><a class="dropdown-item" href="kontakt.html">Kontakt</a></li>
+                  <li><a class="dropdown-item" href="zapisy.html">Zapisy</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -76,6 +77,47 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-8 p-3 mt-3">
+          <p class="text-center">
+            <button class="btn btn-primary text-uppercase" type="button" data-bs-toggle="collapse"
+              data-bs-target="#signup" aria-expanded="false" aria-controls="collapseExample">
+              Zapisz dziecko
+            </button>
+          </p>
+          <div class="collapse" id="signup">
+            <div class="card card-body">
+              <form action="https://formsubmit.co/zapisy@uksceluloza.pl" method="POST" class="text-center">
+                <input type="hidden" name="_captcha" value="false">
+                <div class="form-group mb-3">
+                  <label for="name" class="form-label">Imię i nazwisko dziecka</label>
+                  <input type="text" class="form-control" id="name" name="Dane dziecka" required>
+                </div>
+                <div class="form-group mb-3">
+                  <label for="rocznik">Rok urodzenia dziecka</label>
+                  <select class="form-control" id="rocznik" name="Rocznik">
+                    <option value=""></option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                    <option value="2010">2010</option>
+                  </select>
+                </div>
+                <div class="form-group mb-3">
+                  <label for="name" class="form-label">Numer telefonu</label>
+                  <input type="number" class="form-control" id="name" name="Telefon" required>
+                </div>
+                <div class="form-group mb-3">
+                  <label for="mail" class="form-label">Adreas mailowy</label>
+                  <input type="email" class="form-control" id="mail" aria-describedby="emailHelp" name="e-mail">
+                  <input type="hidden" name="_next" value="https://uksceluloza.pl/sent.html">
+                  <input type="hidden" name="_template" value="table">
+                </div>
+                <button type="submit" class="btn btn-lg btn-primary text-uppercase">Zapisz</button>
+              </form>
+            </div>
+          </div>
           <h1 class="text-center text-uppercase">Rocznik 2015-2016</h1>
           <img src="img/2015.jpg" alt="Rocznik 2015 i młodsi" class="img-fluid">
           <p class="justify mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi quae unde sapiente

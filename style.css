@@ -177,6 +177,10 @@ main .container .row ul li {
     color: white;
 }
 
+form {
+    font-size: 21px;
+}
+
 /* main .container {
     border: 10px solid red;
     margin-top: 50px;
