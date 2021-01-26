@@ -23,9 +23,20 @@ header {
 
 .facebook {
     position: fixed;
-    top: 80vh;
+    top: 70vh;
     left: 0;
     z-index: 1030;
+}
+
+.facebook a {
+    transform: scale(1);
+    margin-bottom: 20px;
+    transition: .3s;
+}
+
+.facebook a:hover {
+    margin-bottom: 20px;
+    transform: scale(1.5);
 }
 
 .navbar {
